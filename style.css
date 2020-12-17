@@ -1,0 +1,407 @@
+.wrapper {
+    min-width: 100%;
+    margin: 0 0 0 0;
+    height: 100%;
+    z-index: 1;
+}
+html{
+    scroll-behavior: smooth;
+}
+body, html{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+	background-color: #1F1F28;
+}
+h1 {
+    color: #B0332C;
+}
+h2{
+	color: #D98958
+}
+h3 {
+	color: #D98958
+}
+h4 {
+	color: #D98958
+}
+.containerbackground{
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60%;
+    margin: 0;
+    object-fit: contain;
+    background-position: center;
+    width: 100%;
+}
+
+@media (max-width:800px){
+
+	img {
+	border: 15px solid #555;  
+	border-radius: 50%;
+
+}
+.containerbackground{
+    width: 100%;
+}
+
+}
+
+header{
+    background-color:black;
+    opacity: 0.9;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-shadow: black 0 0 10px;
+}
+header ul li {
+
+    display: inline-block;
+	padding-left: 90px;
+    padding-right: 90px;
+    color:white;
+    font-weight: normal;
+    letter-spacing: 1 px;
+	text-align: center;
+    
+
+}
+
+header ul li:hover{
+    color: rgb(71, 71, 124);
+    cursor: pointer;
+    
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+ul{
+    list-style-type: none;
+    margin-top:0;
+    padding-top:13px;
+    font-size:22px;
+    font-weight: 560;
+    margin-bottom:0;
+    padding-left: 20px;
+}
+
+.container{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.bannerposition{
+    height: 100%;
+    text-align: center;
+}
+
+.banner{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(0,0,0, 0.5);
+    border-radius: 1%;
+    box-shadow: rgb(71, 71, 124) 0 0 5px;
+    text-align: center;
+    position: relative;
+}
+
+@media (max-width:800px){
+
+    .banner{
+        width: 100%;
+    }
+    
+    }
+    
+
+.cvprofile{
+    opacity: 1;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.banner img{
+
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 15px;
+    box-shadow: white 0 0 2px;
+    margin-bottom: 15px;
+    
+    
+}
+
+@media (max-width:800px){
+    
+    }
+
+
+
+.banner h1 {
+    color: #EAE9E9;
+    font-weight: normal;
+    margin: 50px 0 0 0 ;
+    font-size: 50px;
+    
+}
+
+.banner hr{
+
+    width: 100%;
+}
+
+.banner h2 {
+    color: #EAE9E9;
+    font-weight: normal;
+    margin: 5px 0 0 5px ;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+header ul li:nth-child(3) {
+
+    display: inline-block;
+    color: white;
+    font-weight: normal;
+    font-size: inherit;
+    padding: 0;
+
+}
+
+
+header ul li:nth-child(4) {
+
+    display: inline-block;
+    padding-right: 40px;
+    color:white;
+    font-weight: normal;
+    font-size: 25px;
+
+}
+
+header ul li:nth-child(5) {
+
+    display: inline-block;
+    padding-right: 30px;
+    color:white;
+    font-weight: normal;
+    font-size: 25px;
+    justify-self: end;
+    
+
+}
+
+header ul li:nth-child(6) {
+
+    display: inline-block;
+    padding-right: 30px;
+    color:white;
+    font-weight: normal;
+    font-size: 25px;
+    justify-self: end;
+    
+
+}
+
+header ul li:nth-child(3):hover {
+
+    color: rgb(71, 71, 124);
+    cursor: pointer;
+    
+
+}
+
+header ul li:nth-child(4):hover {
+
+    color: rgb(71, 71, 124);
+    cursor: pointer;
+    
+}
+
+
+header ul li:nth-child(5):hover {
+
+    color: rgb(71, 71, 124);
+    cursor: pointer;
+    
+
+}
+
+.contactForm{
+    margin: 50px auto;
+    width: 50%;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.contactForm form label{
+	color: #D98949;
+    font-size: 20px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+   	background-color: #707070;
+	border: 2px solid #9A2A2A; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 20px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical;
+  }
+
+input[type=submit] {
+    background-color: #D98949;
+    color: #9A2A2A;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: #9A2A2A 0 0 8px;
+    font-size: 18px;
+	font-weight: bold;
+  }
+
+    input[type=message], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    background-color: #707070;
+	border: 2px solid #9A2A2A; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 20px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical;
+  }
+
+  .form{
+      padding-top: 30px;
+  }
+
+.sub{
+    text-align: center;
+}
+
+
+footer{
+    height: 80px;
+    text-align: center;
+    width: 100%;
+    background-image: url("./background.jpg");
+    color: #737373;
+}
+
+.black{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.container{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.0s all ease-in-out;
+}
+
+.container-appear{
+    opacity: 1;
+    transform:translateY(0px);
+}
+
+.container1{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.0s all ease-in-out;
+}
+
+.container1-appear{
+    opacity: 1;
+    transform:translateY(0px);
+}
+
+.container2{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.0s all ease-in-out;
+}
+
+.container2-appear{
+    opacity: 1;
+    transform:translateY(0px);
+}
+
+.contactForm{   
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.0s all ease-in-out;
+}
+
+.contactForm-appear{
+    opacity: 1;
+    transform:translateY(0px);
+}
+
+.cvprofile{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.0s all ease-in-out;
+}
+
+.cvprofile-appear{
+    opacity: 1;
+    transform:translateY(0px);
+}
+
+
+#AboutMe p {
+	color: #D98949;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
